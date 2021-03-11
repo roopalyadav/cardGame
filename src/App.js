@@ -48,6 +48,7 @@ export default function App() {
     }
 
     if (openedCard.length === 2) setTimeout(() => setOpenedCard([]), 1000);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [openedCard]);
 
   return (
